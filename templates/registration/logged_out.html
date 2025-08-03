@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block title %}Logged Out{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-md-6 mx-auto text-center">
+        <div class="card shadow">
+            <div class="card-body py-5">
+                <i class="bi bi-check-circle text-success" style="font-size: 4rem;"></i>
+                <h2 class="mt-3">Successfully Logged Out</h2>
+                <p class="text-muted">Thank you for using TweetApp. Come back soon!</p>
+                <div class="mt-4">
+                    <a href="{% url 'index' %}" class="btn btn-primary me-2">
+                        <i class="bi bi-house"></i> Home
+                    </a>
+                    <a href="{% url 'login' %}" class="btn btn-outline-primary">
+                        <i class="bi bi-box-arrow-in-right"></i> Login Again
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
