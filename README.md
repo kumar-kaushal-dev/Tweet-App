@@ -1,7 +1,5 @@
 # 🐦 TweetApp — A Mini Twitter Clone Built with Django
 
-![TweetApp](file:///C:/Users/HP/Downloads/githubimage.html)
-
 > **TweetApp** is a feature-rich Django web application that mimics core Twitter functionality. Users can create, edit, and delete tweets — including images — all wrapped in a responsive UI built with Bootstrap.
 
 ---
