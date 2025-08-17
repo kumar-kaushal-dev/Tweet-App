@@ -22,9 +22,7 @@
 - **Backend:** Django (Python)
 - **Database:** SQLite3 (default for local development)
 - **Other Tools:** python-decouple, Pillow
-
----
-
+- 
 ---
 
 ## 🔧 Setup Instructions
@@ -100,3 +98,8 @@ Kaushal Kumar
 -Pagination for tweets
 
 -Deployment on Heroku or Vercel (with PostgreSQL)
+
+---
+
+🤝 Contributing
+Contributions are welcome! To contribute: 1.Fork the repository 2.Create a new branch (feature-new-idea) 3.Commit your changes 4.Push to your fork 5.Submit a Pull Request
